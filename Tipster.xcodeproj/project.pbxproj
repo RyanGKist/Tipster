@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		580408F02008203A00F25B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580408EF2008203A00F25B56 /* AppDelegate.swift */; };
-		580408F22008203A00F25B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580408F12008203A00F25B56 /* ViewController.swift */; };
+		580408F22008203A00F25B56 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580408F12008203A00F25B56 /* MainVC.swift */; };
 		580408F52008203A00F25B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580408F32008203A00F25B56 /* Main.storyboard */; };
 		580408F72008203A00F25B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580408F62008203A00F25B56 /* Assets.xcassets */; };
 		580408FA2008203A00F25B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580408F82008203A00F25B56 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		580408EC2008203A00F25B56 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		580408EF2008203A00F25B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		580408F12008203A00F25B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		580408F12008203A00F25B56 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		580408F42008203A00F25B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		580408F62008203A00F25B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580408F92008203A00F25B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				580408EF2008203A00F25B56 /* AppDelegate.swift */,
-				580408F12008203A00F25B56 /* ViewController.swift */,
+				580408F12008203A00F25B56 /* MainVC.swift */,
 				580408F32008203A00F25B56 /* Main.storyboard */,
 				580408F62008203A00F25B56 /* Assets.xcassets */,
 				580408F82008203A00F25B56 /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580408F22008203A00F25B56 /* ViewController.swift in Sources */,
+				580408F22008203A00F25B56 /* MainVC.swift in Sources */,
 				580408F02008203A00F25B56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RyanGKist.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RyanGKist.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
